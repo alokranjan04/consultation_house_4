@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultation House | Industrial & HR Experts</title>
+    <meta name="description" content="Expert Industrial & HR Consultancy Services including Factories Act, ESI & PF, Pollution Compliance, and more. Located in Noida." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                forest: '#1a4d2e', // Deep Forest Green - Authority
+                gold: '#d4af37',   // Metallic Gold - Excellence
+                cream: '#f9f9f7',  // Warm White - Paper feel
+                sand: '#f0efe9',   // Darker Cream - Backgrounds
+                charcoal: '#2c3e50', // Text
+                border: '#e2e8f0',
+              }
+            },
+            fontFamily: {
+              sans: ['DM Sans', 'sans-serif'],
+              serif: ['Libre Baskerville', 'serif'],
+            },
+            boxShadow: {
+              'elegant': '0 10px 40px -10px rgba(26, 77, 46, 0.1)',
+              'sharp': '5px 5px 0px 0px rgba(212, 175, 55, 0.3)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f9f9f7;
+        color: #2c3e50;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f9f9f7;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1a4d2e; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #143d24; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
